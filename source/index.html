@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Widget</title>
+  <link href="css/style.min.css" rel="stylesheet">
+  <link rel="preload" href="fonts/rotondac-bold-webfont.woff2" as="font">
+  <link rel="preload" href="fonts/rotondac-webfont.woff2" as="font">
+  <link rel="preload" href="fonts/alsschlangesans-black-webfont.woff2" as="font">
+  <link rel="preload" href="fonts/myriadpro-regular.woff2" as="font">
+</head>
+
+<body class="page">
+  <article class="page__widget widget">
+    <h1 class="visually-hidden">Виджет</h1>
+    <header class="widget__header">
+      <button class="widget__button-close button-close" type="button" aria-label="Закрыть виджет"></button>
+      <p class="widget__intro">
+        Ваш заказ №<span class="widget__order-number">1890998</span> принят
+        и находится в обработке
+      </p>
+    </header>
+
+    <section class="widget__special special">
+      <h2 class="visually-hidden">Акция!</h2>
+      <p class="special__user-name">Михаил Иванович!
+        <span class="special__offer">10%</span>
+      </p>
+      <p class="special__text">
+        подарите друзьям скидку
+        в&nbsp;«CompanyName» и получите скидку
+        в подарок, за каждого друга
+      </p>
+      <ul class="social">
+        <li class="social__item social__item--ok">
+          <a class="social__link social__link--ok" href="#">
+            <span class="visually-hidden">Перейти в Одноклассники</span>
+          </a>
+        </li>
+        <li class="social__item social__item--fb">
+          <a class="social__link social__link--fb" href="#">
+            <span class="visually-hidden">Отправиться на Facebook</span>
+          </a>
+        </li>
+        <li class="social__item social__item--tw">
+          <a class="social__link social__link--tw" href="#">
+            <span class="visually-hidden">Переместиться в Twitter</span>
+          </a>
+        </li>
+        <li class="social__item social__item--vk">
+          <a class="social__link social__link--vk" href="#">
+            <span class="visually-hidden">Посетить Вконтакте</span>
+          </a>
+        </li>
+      </ul>
+      <form class="form" action="https://echo.htmlacademy.ru" method="get">
+        <input class="form__field form__field--mail" type="email" name="friends-mail" placeholder="E-mail друзей"
+          aria-label="E-mail друзей">
+        <textarea class="form__field form__field--text" name="feedback" aria-label="Отзыв о заказе в свободной форме">
+Хороший ассортимент и цены в&nbsp;%site_name%. Только что после покупки  подарили скидку %friend_reward% для моих друзей!
+
+Времени мало, Вперёд!
+        </textarea>
+        <button class="form__button" type="submit">Отправить</button>
+      </form>
+    </section>
+    <footer class="widget__footer">
+      <p class="widget__adress">
+        <a class="widget__link" href="#">http://floctoryblablabla/#########</a>
+      </p>
+      <p class="widget__rules">Правила акции</p>
+      <a class="widget__agreement" href="#">Пользовательское соглашение</a>
+    </footer>
+  </article>
+</body>
+
+</html>

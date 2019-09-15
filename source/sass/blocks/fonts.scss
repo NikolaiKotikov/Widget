@@ -1,0 +1,51 @@
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "RotondaC";
+  font-display: swap;
+
+  src:
+    local("RotondaC Regular"),
+    local("RotondaC-Regular"),
+    url("../fonts/rotondac-webfont.woff2") format("woff2"),
+    url("../fonts/rotondac-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  font-family: "RotondaC";
+  font-display: swap;
+
+  src:
+    local("RotondaC Bold"),
+    local("RotondaC-Bold"),
+    url("../fonts/rotondac-bold-webfont.woff2") format("woff2"),
+    url("../fonts/rotondac-bold-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "ALSSchlangesans-Black";
+  font-display: swap;
+
+  src:
+    local("ALS Schlangesans Black"),
+    local("ALSSchlangesans-Black"),
+    url("../fonts/alsschlangesans-black-webfont.woff2") format("woff2"),
+    url("../fonts/alsschlangesans-black-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "MyriadPro-Regular";
+  font-display: swap;
+
+  src:
+    local("Myriad Pro"),
+    local("MyriadPro-Regular"),
+    url("../fonts/myriadpro-regular.woff2") format("woff2"),
+    url("../fonts/myriadpro-regular.woff") format("woff");
+}

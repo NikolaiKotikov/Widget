@@ -1,0 +1,43 @@
+.special {
+  padding-top: 15px;
+}
+
+.special__user-name {
+  position: relative;
+  margin: 0;
+  font-family: "ALSSchlangesans-Black", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(40, 86, 168);
+  line-height: 18px;
+  letter-spacing: 0.72px;
+  padding: 15px 100px 10px 16px;
+}
+
+.special__offer {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 25px;
+  color: rgb(241, 208, 47);
+  line-height: 28.47px;
+  letter-spacing: 0.64px;
+  width: 95px;
+  height: 43px;
+  background-color: rgb(40, 86, 168);
+  border-radius: 8px 0 0 8px;
+  text-align: center;
+  padding-top: 9px;
+  border: 1px dashed rgb(40, 86, 168);
+}
+
+.special__text {
+  font-family: "MyriadPro-Regular", "Arial", sans-serif;
+  color: rgb(72, 72, 72);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.56px;
+  margin: 0;
+  padding: 8px 30px 0 17px;
+}

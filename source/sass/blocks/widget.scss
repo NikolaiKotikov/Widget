@@ -1,0 +1,115 @@
+.widget {
+  width: 300px;
+  box-shadow: 1px 3px 12px 1px rgba(0, 0, 0, 0.09), 0 0 9px rgba(31, 31, 31, 0.05);
+  border-radius: 15px;
+}
+
+.widget__header {
+  width: 100%;
+  background-color: rgb(40, 86, 168);
+  border: 1px solid rgb(217, 217, 217);
+  border-radius: 15px 15px 0 0;
+  padding: 16px 25px 11px 17px;
+  position: relative;
+}
+
+.widget__intro {
+  color: rgb(255, 255, 255);
+  font-family: "RotondaC", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+  letter-spacing: 0.64px;
+  margin: 0;
+}
+
+.widget__order-number {
+  color: rgb(241, 208, 47);
+}
+
+.widget__button-close {
+  top: 9px;
+  right: 11px;
+}
+
+.widget__footer {
+  background-color: rgb(40, 86, 168);
+  padding: 21px 19px 14px;
+  border-radius: 0 0 15px 15px;
+  position: relative;
+  z-index: 10;
+}
+
+.widget__adress {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  height: 43px;
+  border: 1px dashed rgb(40, 86, 168);
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  margin: 0 0 23px;
+  padding: 12px 17px;
+}
+
+.widget__link {
+  text-decoration: none;
+  color: rgb(40, 86, 168);
+  line-height: 18px;
+  letter-spacing: 0.56px;
+
+  &:hover,
+  &:focus {
+    opacity: 0.3;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.widget__rules {
+  position: relative;
+  width: 106px;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.48px;
+  margin: 0 auto 18px;
+  padding-right: 11px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-top: 1px solid rgb(241, 208, 47);
+    border-right: 1px solid rgb(241, 208, 47);
+    transform: rotate(-45deg);
+    top: 8px;
+    right: 2px;
+  }
+}
+
+.widget__agreement {
+  display: block;
+  width: 202px;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.48px;
+  margin: 0 auto;
+
+  &:hover,
+  &:focus {
+    opacity: 0.3;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}

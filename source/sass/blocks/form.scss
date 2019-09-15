@@ -1,0 +1,83 @@
+@keyframes appearance {
+  0% {
+    bottom: -100px
+  }
+
+  50% {
+    bottom: -16px;
+  }
+
+  100% {
+    bottom: -100px;
+  }
+}
+
+.form {
+  position: relative;
+  padding: 19px 18px;
+  padding-bottom: 17px;
+
+  &::after {
+    animation-name: appearance;
+    animation-duration: 5s;
+    position: absolute;
+    z-index: 0;
+    right: 22px;
+    bottom: -100px;
+    content: "";
+    width: 46px;
+    height: 94px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../img/icon-queen.png");
+  }
+}
+
+.form__field {
+  width: 100%;
+  border: 1px solid rgb(40, 86, 168);
+  border-radius: 5px;
+  letter-spacing: 0.56px;
+  line-height: 18px;
+  margin-bottom: 12px;
+
+  &--mail {
+    padding: 5px 5px 6px 11px;
+
+    &::placeholder {
+      color: rgba(72, 72, 72, 0.5);
+    }
+  }
+
+  &--text {
+    height: 150px;
+    padding: 13px 0 6px 10px;
+  }
+
+  &:hover,
+  &:focus {
+    border-color: rgba(40, 86, 168, 0.3);
+  }
+
+  &:active {
+    border-color: rgba(40, 86, 168, 0.6);
+  }
+}
+
+.form__button {
+  width: 100%;
+  height: 47px;
+  border-radius: 24px;
+  border: 1px solid rgb(40, 86, 168);
+  background-color: rgb(40, 86, 168);
+  color: rgb(255, 255, 255);
+
+  &:hover,
+  &:focus {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
